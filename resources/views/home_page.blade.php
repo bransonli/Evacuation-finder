@@ -1,4 +1,55 @@
-<html>
-	<head><title>Home Page</title></head>
-		<body><p>Hello, this is the home page of NEAT.</p></body>
-</html>
+@extends('layouts.default')
+@section('content')
+
+<body>
+	<div>
+	
+		<h1> Log in </h1>
+	
+	</div>
+
+	<div>
+		<form action="POST" action= ""></form>
+		@csrf
+		<div>
+			<label for="name"> Full name</label>
+			<div>
+				<input type="text" name = "name" id="name">
+				<br>
+			</div>
+		</div>
+
+
+		<div>
+			<label for="address"> Address</label>
+			<div>
+				<input type="text" name = "address" id="address">
+				<br>
+			</div>
+		</div>
+
+		<div>
+			<label for="name"> Age</label>
+			<div>
+				<input type="text" name = "age" id="age">
+				<br>
+			</div>
+		</div>
+
+		<div>
+			<div class="control"> 
+				<button type="submit"> submit  </button>
+			</div>
+		
+		
+		
+		</div>
+
+
+		
+	</div>
+
+	
+</body>
+
+@stop
