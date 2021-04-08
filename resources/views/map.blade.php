@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Simple Markers</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style type="text/css">
       /* Always set the map height explicitly to define the size of the div
@@ -19,12 +19,16 @@
       }
     </style>
     <script>
-      let map;
-
       function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: -34.397, lng: 150.644 },
-          zoom: 8,
+        const myLatLng = { lat: -25.363, lng: 131.044 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: myLatLng,
+        });
+        new google.maps.Marker({
+          position: myLatLng,
+          map,
+          title: "Hello World!",
         });
       }
     </script>
