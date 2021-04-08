@@ -10,7 +10,7 @@
 	
         <h1 class="w3-margin w3-jumbo">SIGN UP</h1>
 	
-	</heather>
+	</header>
 
 	<div>
 		<form class = "w3-forms" method='POST' action= "/store_user">
