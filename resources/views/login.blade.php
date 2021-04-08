@@ -14,7 +14,7 @@
 	</div>
 
 	<div>
-		<form action="POST" action= "/store_user">
+		<form method='POST' action= "/store_user">
             @csrf
             <div>
                 <label for="name"> Full name</label>
