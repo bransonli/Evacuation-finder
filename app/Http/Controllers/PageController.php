@@ -7,7 +7,7 @@ class PageController extends Controller
 {
     public function show($pagename)
     {
-        return view(pages.{$pagename})
+        return view ("{$pagename}");
     }
 
 
