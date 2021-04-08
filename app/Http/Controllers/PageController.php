@@ -29,9 +29,26 @@ class PageController extends Controller
         
     public function check_user()
     {
+
+        $users = \App\User::get();
+
         dump(request()->all());
 
         $user =  request('name');
+        $Flag = '0';
+
+        foreach ($users as $reg_user)
+           
+            if ($user== $reg_user->name) {
+                dd('found');
+
+            }
+                
+
+       
+
+          
+        dd($Flag);
 
     
         
