@@ -13,7 +13,7 @@
       /* Optional: Makes the sample page fill the window. */
       html,
       body {
-        height: 100%;
+        height: 80%;
         margin: 0;
         padding: 0;
       }
@@ -34,6 +34,7 @@
     </script>
   </head>
   <body>
+    <h1><b>Suggestion: </b></h1>
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
