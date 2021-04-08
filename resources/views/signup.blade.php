@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
-
+@extends('layout')
+@section('title')
 <head>
     <title> NEAT </title>
 </head>
-
-
+@stop
+@section('content')
 <body>
 	<div>
 	
@@ -14,7 +13,7 @@
 	</div>
 
 	<div>
-		<form method='POST' action= "/store_user">
+		<form class = "w3-forms" method='POST' action= "/store_user">
             @csrf
             <div>
                 <label for="name"> Full name</label>
@@ -56,7 +55,4 @@
 		
 	</div>
 
-	
-</body>
-
-</html>
+@stop
