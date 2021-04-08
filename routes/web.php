@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/store_user', 'PageController@store');
+
 Route::get('/{pagename}', 'PageController@show');
+
