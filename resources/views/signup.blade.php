@@ -12,10 +12,10 @@
 	
 	</header>
 
-	<div>
+	<div class='w3-center'>
 		<form class = "w3-forms" method='POST' action= "/store_user">
             @csrf
-            <div class="w3-row-padding w3-indigo w3-padding-32 w3-container">
+            <div class="w3-row-padding  w3-indigo w3-padding-32 w3-container">
                 <label for="name"> <b> Full name</b></label>
                 <div>
                     <input type="text" name = "name" id="name">
