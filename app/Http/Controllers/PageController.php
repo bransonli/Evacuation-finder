@@ -13,6 +13,7 @@ class PageController extends Controller
 
     public function store()
     {
+        dd('here ');
         dump(request()->all());
 
         $user = new users();
