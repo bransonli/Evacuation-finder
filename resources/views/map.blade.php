@@ -72,7 +72,7 @@
     <br>
 
 
-    <h1><b>Suggestion: </b></h1>
+    <h1><b>Suggested evacuation center: </b></h1>
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
