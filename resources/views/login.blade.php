@@ -1,5 +1,10 @@
-@extends('layouts.default')
-@section('content')
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> NEAT </title>
+</head>
+
 
 <body>
 	<div>
@@ -38,6 +43,7 @@
 
 		<div>
 			<div class="control"> 
+            <br>
 				<button type="submit"> submit  </button>
 			</div>
 		
@@ -52,4 +58,4 @@
 	
 </body>
 
-@stop
+</html>
