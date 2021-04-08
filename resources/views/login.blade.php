@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html>
 
+@extends('layout')
+
+
+@section('title')
 <head>
     <title> NEAT </title>
 </head>
+@stop
 
-
+@section('content')
 <body>
 	<div>
 	
@@ -39,8 +42,5 @@
 
 		
 	</div>
-
+@stop
 	
-</body>
-
-</html>
