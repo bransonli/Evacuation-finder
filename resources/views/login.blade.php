@@ -36,7 +36,7 @@
 		<div>
 			<label for="name"> Age</label>
 			<div>
-				<input type="text" name = "age" id="age">
+				<input type="integer" name = "age" id="age">
 				<br>
 			</div>
 		</div>
