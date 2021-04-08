@@ -50,11 +50,9 @@ class PageController extends Controller
           
         dd($Flag);
 
-    
-        
-
-
     }
+
+  
 
 
 
