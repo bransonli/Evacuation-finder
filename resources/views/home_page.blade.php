@@ -18,19 +18,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+    <a href="/home_page" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="/map" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Map</a>
+    <a href="/login" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Log-in</a>
+    <a href="/signup" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sign-up</a>
+    <a href="/about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Log-in</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+    <a href="/home_page" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="/login" class="w3-bar-item w3-button w3-padding-large">Log-in</a>
+    <a href="/about" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="/map" class="w3-bar-item w3-button w3-padding-large">Map</a>
+    <a href="/signup" class="w3-bar-item w3-button w3-padding-large">Sign-up</a>
   </div>
 </div>
 
@@ -45,14 +46,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Hello there!</h1>
-      <h5 class="w3-padding-32">random text</h5>
+      <h1>Know where to go</h1>
+      <h5 class="w3-padding-32">Find the nearest evacuation center</h5>
 
-      <p class="w3-text-grey">random text random text random text random text random text random text random text random text random text random text random text random text random text</p>
+      <p class="w3-text-grey">Check out the map to know where it's safest</p>
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+      <i class="fa fa-location-arrow fa-5x fa-border"></i>
+
     </div>
   </div>
 </div>
@@ -61,20 +63,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      <i class="fa fa-mobile fa-5x fa-border"></i>
+
     </div>
 
     <div class="w3-twothird">
-      <h1>Hi there again!</h1>
-      <h5 class="w3-padding-32">some random text</h5>
+      <h1>Sign up for text messaging service assistance</h1>
+      <h5 class="w3-padding-32">Stay connected even without wifi</h5>
 
-      <p class="w3-text-grey">random text random text random text random text random text random text random text random text random text random text random text random text random text</p>
+      <p class="w3-text-grey">Be guided during calamity</p>
     </div>
   </div>
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: lets go team NEAT</h1>
+    <h1 class="w3-margin w3-xlarge">Quote of the day: Lets go team NEAT</h1>
 </div>
 
 <!-- Footer -->
