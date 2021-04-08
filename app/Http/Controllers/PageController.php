@@ -26,6 +26,18 @@ class PageController extends Controller
         dd('saved');
     }
 
+        
+    public function check_user()
+    {
+        dump(request()->all());
+
+        $user =  request('name');
+
+    
+        
+
+
+    }
 
 
 
