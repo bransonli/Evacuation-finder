@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\User;
 
 class PageController extends Controller 
 {
@@ -13,10 +13,10 @@ class PageController extends Controller
 
     public function store()
     {
-        dd('here ');
+       
         dump(request()->all());
 
-        $user = new users();
+        $user = new User();
         $user->name = request('name');
         $user->address = request('address');
         $user->age = request('age');
