@@ -17,8 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
 Route::post('/store_user', 'PageController@store');
 
 Route::post('/check_user', 'PageController@check_user');
