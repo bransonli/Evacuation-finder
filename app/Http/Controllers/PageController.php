@@ -49,30 +49,20 @@ class PageController extends Controller
 
         $users = \App\User::get();
 
-        dump(request()->all());
+        request()->all();
 
         $user =  request('name');
-        $Flag = '0';
 
         foreach ($users as $reg_user)
            
             if ($user== $reg_user->name) {
                 return view('map',[
-                    'address1'=> $reg_user->address1,
-                    'address2'=> $reg_user->address2,
-                    'address3'=> $reg_user->address3,
-                    'address4'=> $reg_user->address4
+                    'longhitude'=> $reg_user->longhitude,
+                    'latitude'=> $reg_user->latitude
                     
                 ]);
 
             }
-        
-                
-
-       
-
-          
-        dd($Flag);
 
     }
 
