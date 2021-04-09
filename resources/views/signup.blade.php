@@ -25,17 +25,20 @@
 
 
             <div class="w3-row-padding w3-indigo w3-padding-32 w3-container" >
-                <label for="address"><b> Address</b></label>
+                <label for="address"><b> Address</b> (Please only put one word per box)</label>
                 <div>
-                    <input type="text" name = "address" id="address">
+                    <input type="text" name = "address1" id="address1">
+                    <input type="text" name = "address2" id="address2">
+                    <input type="text" name = "address3" id="address3">
+                    <input type="text" name = "address4" id="address4">
                     <br>
                 </div>
             </div>
 
             <div class="w3-row-padding w3-indigo w3-padding-32 w3-container">
-                <label for="name"> <b> Age </b></label>
+                <label for="name"> <b> Phone Number </b></label>
                 <div>
-                    <input type="integer" name = "age" id="age">
+                    <input type="integer" name = "phone" id="phone">
                     <br>
                 </div>
             </div>
