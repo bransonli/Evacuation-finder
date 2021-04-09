@@ -33,15 +33,36 @@
     <script>
       function initMap() {
         const myLatLng = { lat: {{$latitude}}, lng: {{$longhitude}} };
+        const EvacLatLng = { lat: 14.672630076961113, lng:120.9846528150108 };
+        
+
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 15,
           center: myLatLng,
         });
+
+
+        var evac_icon = {
+            url: "evacuation.png", // url
+            scaledSize: new google.maps.Size(100, 100), // scaled size
+            origin: new google.maps.Point(0,0), // origin
+            anchor: new google.maps.Point(0, 0) // anchor
+        };
+
+
+
         new google.maps.Marker({
           position: myLatLng,
           map,
-          title: "Hello World!",
+          title: "Evacuation",
+          icon: evac_icon,
+          
         });
+
+    
+     
+       
+ 
       }
     </script>
   </head>
