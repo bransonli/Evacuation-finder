@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 use App\User;
+use App\Http\Controllers\LocationFinder;
 
 class PageController extends Controller 
 {
     public function show($pagename)
     {
+        $error = "";
         return view ("{$pagename}");
     }
 
@@ -18,12 +20,27 @@ class PageController extends Controller
 
         $user = new User();
         $user->name = request('name');
-        $user->address = request('address');
-        $user->age = request('age');
+        $address1 = request('address1');
+        $address2 = request('address2');
+        $address3 = request('address3');
+        $address4 = request('address4');
+        $user->phone = request('phone');
+
+
+        $location_finder = new LocationFinder();
+
+        $user->longhitude = $location_finder->get_location_longhitude($address1, $address2, $address3, $address4);
+        $user->latitude = $location_finder->get_location_latitude($address1, $address2, $address3, $address4);
+
+        $user->phone = request('phone');
 
         $user->save();
 
-        dd('saved');
+        
+
+
+
+        return redirect("thank_signup");
     }
 
         
@@ -40,9 +57,16 @@ class PageController extends Controller
         foreach ($users as $reg_user)
            
             if ($user== $reg_user->name) {
-                dd('found');
+                return view('map',[
+                    'address1'=> $reg_user->address1,
+                    'address2'=> $reg_user->address2,
+                    'address3'=> $reg_user->address3,
+                    'address4'=> $reg_user->address4
+                    
+                ]);
 
             }
+        
                 
 
        
