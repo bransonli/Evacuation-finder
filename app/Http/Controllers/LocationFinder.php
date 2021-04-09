@@ -42,4 +42,8 @@ class LocationFinder extends Controller
 		
 	}
 
+	public function find_nearest_evac(){
+		
+	}
+
 }
