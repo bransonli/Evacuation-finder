@@ -83,7 +83,7 @@ class LocationFinder extends Controller
 	public function nearest(){
 		$location_finder = new LocationFinder();
 
-		dd($location_finder->find_nearest_evac(120,120));
+		dd($location_finder->find_nearest_evac(120,120)[0][0]);
 
 	}
 
