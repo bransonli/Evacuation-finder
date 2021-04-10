@@ -43,7 +43,8 @@ class LocationFinder extends Controller
 					 14.60243111,
 					 14.59058001,
 					 14.6208327,
-					 14.6312591];
+					 14.6312591,
+					150];
 		
 		$loc_longs = [120.9891239,
 				  	  120.96233,
@@ -51,25 +52,29 @@ class LocationFinder extends Controller
 					  120.9624241,
 					  120.9592041,
 					  120.9602087,
-					  120.9621403];
+					  120.9621403,
+					150];
 
 		$Nearest = 10000000000000000000000000;
 		$Nearest_index = 0 ;
 
-		for ($i = 0; $i < 6; $i++)
+		for ($i = 0; $i < 7; $i++){
 			$lat_difference = $current_lat - $loc_lats[$i];
 			$long_difference = $current_long - $loc_longs[$i];
 			$difference = pow($lat_difference,2) + pow($long_difference,2);
+			
 
 			if ($difference < $Nearest) {
 				$Nearest = $difference;
 				$Nearest_index = $i;
+				
 			}
+		}
 
 
 		
 
-		dd($Nearest);
+		return array([$loc_names[$Nearest_index],$loc_lats[$Nearest_index],$loc_longs[$Nearest_index]]);
 
 		
 
@@ -78,7 +83,7 @@ class LocationFinder extends Controller
 	public function nearest(){
 		$location_finder = new LocationFinder();
 
-		dd($location_finder->find_nearest_evac(150,150));
+		dd($location_finder->find_nearest_evac(120,120));
 
 	}
 
