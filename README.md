@@ -5,7 +5,7 @@ Neat's Evacuation Finder allows victims of calamities to find their nearest evac
 
 - [Sign up]
 - [Go to "Find your evacuation center"]
-- [Enter their name]
+- [Enter name]
 
 ## This project is built using the framework of Laravel (Laragon)
 
