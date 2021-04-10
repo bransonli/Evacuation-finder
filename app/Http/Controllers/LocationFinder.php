@@ -53,6 +53,29 @@ class LocationFinder extends Controller
 					  "Kalayaan Elementary School, Barangay 176",
 					  "Glorietta Evacuation Center",
 					  "Pangarap Central Elementary School, Barangay 182",
+					  "St. Mary Elementary School",
+					  "Fortune High School",
+					  "Malanday Elementary School",
+					  "Kalumpang Elementary School",
+					  "Marikina Elementary School",
+					  "Parang Elementary School",
+					  "Parang High School",
+					  "Concepcion Integrated School",
+					  "Sto. Niño High School",
+					  "H. Bautista Elementary School",
+					  "San Roque Elementary School",
+					  "Concepcion Elementary School",
+					  "Tañong High School",
+					  "Nangka Elementary School",
+					  "Kap Moy Elementary School",
+					  "SSS Vill Elementary School",
+					  "Sto. Niño Elementary School",
+					  "Fortune Elementary School",
+					  "Marikina High School",
+					  "Barangka Elementary School",
+					  "Sta. Elena High School",
+
+
 			
 					  
 
@@ -84,6 +107,27 @@ class LocationFinder extends Controller
 					 14.78076957951641,
 					 14.551388224774662,
 					 14.764176704477947,
+					 14.668925347362272,
+					 14.6597807199063,
+					 14.650416630136235,
+					 14.622310510488841,
+					 14.631238511855738,
+					 14.65745579548551,
+					 14.663413064942691,
+					 14.65003041899178,
+					 14.639402683743173,
+					 14.657929147228737,
+					 14.622917337002885,
+					 14.64781138687598,
+					 14.63408401516277,
+					 14.669509589024411,
+					 14.648466712348535,
+					 14.640079617957996,
+					 14.637939413739629,
+					 14.659232641171169,
+					 14.646597368066214,
+					 14.633420829493003,
+					 14.632478536925474,
 
 					 
 					
@@ -113,6 +157,30 @@ class LocationFinder extends Controller
 					  121.03154543360199,
 					  121.02535247022789,
 					  121.09143369406169,
+					  121.11371602851061,
+					  121.12684399782523,
+					  121.09439902779728,
+					  121.09028936226534,
+					  121.09758713556404,
+					  121.11161736504923,
+					  121.11231359210309,
+					  121.10213726977132,
+					  121.09626446898955,
+					  121.10423630619272,
+					  121.09710100430007,
+					  121.1035434368517,
+					  121.08537558659502,
+					  121.10235346171427,
+					  121.11899286521745,
+					  121.12098946890845,
+					  121.09642313328466,
+					  121.12636819394426,
+					  121.10303365205972,
+					  121.0819147074807,
+					  121.0973978008418,
+
+
+
 
 
 
