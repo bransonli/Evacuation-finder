@@ -18,8 +18,9 @@
 <h2 style="text-align:center">Let's go Team NEAT</h2>
 <div class="container">
 
-  <p>
-  Hi! we are NEAT. Founded by Aaron Li, Tyrone Vargaz, Nicole Sy, and Ellice 
+  <p class="w3-center" style="padding:4cm">
+      Hi! we are NEAT. Founded by Aaron Li, Tyrone Vargaz, Nicole Sy, and Ellice Ang, our website aims to inform people their nearest evacuation sites. 
+      Aside from this, registered users will also receive text messages to guide them during calamities. 
   
   </p>
   <br>
