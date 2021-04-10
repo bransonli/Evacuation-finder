@@ -56,9 +56,21 @@ class PageController extends Controller
         foreach ($users as $reg_user)
            
             if ($user== $reg_user->name) {
+
+                $location_finder = new LocationFinder();
+                $nearest_evac = $location_finder->find_nearest_evac($reg_user->latitude,$reg_user->longhitude);
+                $nearest_evac_name = $nearest_evac[0][0];
+                $nearest_evac_lat = $nearest_evac[0][1];
+                $nearest_evac_long = $nearest_evac[0][2];
+
+
                 return view('map',[
                     'longhitude'=> $reg_user->longhitude,
-                    'latitude'=> $reg_user->latitude
+                    'latitude'=> $reg_user->latitude,
+                    'nearest_evac_name' => $nearest_evac_name,
+                    'nearest_evac_lat' => $nearest_evac_lat,
+                    'nearest_evac_long'  => $nearest_evac_long
+
                     
                 ]);
 
