@@ -16,7 +16,7 @@ class PageController extends Controller
     public function store()
     {
        
-        dump(request()->all());
+        request()->all();
 
         $user = new User();
         $user->first_name = request('first_name');
@@ -79,7 +79,7 @@ class PageController extends Controller
                 ]);
 
             } 
-            
+
         return view('user_not_found');
             
 
