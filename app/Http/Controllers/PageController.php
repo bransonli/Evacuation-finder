@@ -78,9 +78,10 @@ class PageController extends Controller
                     
                 ]);
 
-            } else {
-                return view('user_not_found');
-            }
+            } 
+            
+        return view('user_not_found');
+            
 
     }
 
