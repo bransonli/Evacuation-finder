@@ -35,7 +35,20 @@ class LocationFinder extends Controller
 				  	  "Rosauro Almario Elementary School",
 					  "Baseco Evacuation center",
 					  "Barangay 105 Covered Court",
-					  "Barangay 101 Covered Court"];
+					  "Barangay 101 Covered Court",
+					  "Marcel Covered Court, Barangay Pasong Tamo",
+					  "Centre Ville Covered Court, Barangay Pasong Tamo",
+					  "Pantranco Chapel, Barangay Pasong Tamo",
+					  "Pingkian I Central Court, Barangay Pasong Tamo",
+					  "Pasong Tamo Basketball Court",
+					  "Pingkian Village III Covered Court",
+					  "Apolonio Samson Elementary School",
+			
+					  
+
+					
+					
+					];
 
 		$loc_lats = [14.64144832,
 					 14.6328027,
@@ -44,7 +57,15 @@ class LocationFinder extends Controller
 					 14.59058001,
 					 14.6208327,
 					 14.6312591,
-					150];
+					 14.681654688731717,
+					 14.685406427633215, 
+					 14.678426813906844, 
+					 14.688682031940525, 
+					 14.68275185006838, 
+					 14.697487220019758,
+					 14.654920205976774,
+					
+					];
 		
 		$loc_longs = [120.9891239,
 				  	  120.96233,
@@ -53,7 +74,16 @@ class LocationFinder extends Controller
 					  120.9592041,
 					  120.9602087,
 					  120.9621403,
-					150];
+					  121.04823542628506,
+					  121.06999301758363,
+					  121.04750534119341,
+					  121.05982278395798,
+					  121.06941008494573,
+					  121.06057179552647,
+					  121.00888953977538
+					
+					
+					];
 
 		$Nearest = 10000000000000000000000000;
 		$Nearest_index = 0 ;
