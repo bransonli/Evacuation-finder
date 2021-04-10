@@ -33,7 +33,7 @@
     <script>
       function initMap() {
         const myLatLng = { lat: {{$latitude}}, lng: {{$longhitude}} };
-        const EvacLatLng = { lat: 14.672630076961113, lng:120.9846528150108 };
+        const EvacLatLng = { lat: {{$nearest_evac_lat}}, lng:{{$nearest_evac_long}} };
         
 
         const map = new google.maps.Map(document.getElementById("map"), {
@@ -49,13 +49,27 @@
             anchor: new google.maps.Point(0, 0) // anchor
         };
 
+        var home_icon = {
+            url: "home.png", // url
+            scaledSize: new google.maps.Size(100, 100), // scaled size
+            origin: new google.maps.Point(0,0), // origin
+            anchor: new google.maps.Point(0, 0) // anchor
+        };
 
+
+        new google.maps.Marker({
+          position: EvacLatLng,
+          map,
+          title: "Evacuation",
+          icon: evac_icon,
+          
+        });
 
         new google.maps.Marker({
           position: myLatLng,
           map,
           title: "Evacuation",
-          icon: evac_icon,
+          icon: home_icon,
           
         });
 
@@ -91,10 +105,10 @@
     <br>
 
 
-    <b>Suggested evacuation center: </b><img src="evacuation.png" height=10%  alt="">
+    <h2><b>Suggested evacuation center: </b>{{$nearest_evac_name}}</h2>
     <br>
     <br>
-    <br>
+   
     
     <div id="map"></div>
 
