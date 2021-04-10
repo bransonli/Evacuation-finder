@@ -16,9 +16,25 @@
 		<form class = "w3-forms" method='POST' action= "/store_user">
             @csrf
             <div class="w3-row-padding  w3-indigo w3-padding-32 w3-container">
-                <label for="name"> <b> Full name</b></label>
+                <label for="name"> <b> First Name</b></label>
                 <div>
-                    <input type="text" name = "name" id="name">
+                    <input type="text" name = "first_name" id="first_name">
+                    <br>
+                </div>
+            </div>
+
+            <div class="w3-row-padding  w3-indigo w3-padding-32 w3-container">
+                <label for="name"> <b> Second name</b></label>
+                <div>
+                    <input type="text" name = "second_name" id="second_name">
+                    <br>
+                </div>
+            </div>
+
+            <div class="w3-row-padding  w3-indigo w3-padding-32 w3-container">
+                <label for="name"> <b> Last name</b></label>
+                <div>
+                    <input type="text" name = "last_name" id="last_name">
                     <br>
                 </div>
             </div>
