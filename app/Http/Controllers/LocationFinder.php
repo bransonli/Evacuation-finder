@@ -43,6 +43,16 @@ class LocationFinder extends Controller
 					  "Pasong Tamo Basketball Court",
 					  "Pingkian Village III Covered Court",
 					  "Apolonio Samson Elementary School",
+					  "Sampalukan Elementary, Barangay 24",
+					  "M.B. Asisto High School Main, Barangay 14",
+					  "Bagong Silang Elementary School, Barangay 119",
+					  " Llano Elementary School, Barangay 167",
+					  "Cades, Barangay 178",
+					  "Barangay 177 Evacuation Center",
+					  "Barangay 178 Evacuation Center",
+					  "Kalayaan Elementary School, Barangay 176",
+					  "Glorietta Evacuation Center",
+					  "Pangarap Central Elementary School, Barangay 182",
 			
 					  
 
@@ -64,6 +74,18 @@ class LocationFinder extends Controller
 					 14.68275185006838, 
 					 14.697487220019758,
 					 14.654920205976774,
+					 14.644325667061862,
+					 14.649073991329077,
+					 14.64276104037795,
+					 14.732064797750915,
+					 14.757174495568453,
+					 14.746799421925832,
+					 14.75700723087099,
+					 14.78076957951641,
+					 14.551388224774662,
+					 14.764176704477947,
+
+					 
 					
 					];
 		
@@ -80,7 +102,20 @@ class LocationFinder extends Controller
 					  121.05982278395798,
 					  121.06941008494573,
 					  121.06057179552647,
-					  121.00888953977538
+					  121.00888953977538,
+					  120.97324723433225,
+					  120.96405215364695,
+					  120.98520265549658,
+					  121.01391832666124,
+					  121.05631541111836,
+					  121.05579271868366,
+					  121.05645599308777,
+					  121.03154543360199,
+					  121.02535247022789,
+					  121.09143369406169,
+
+
+
 					
 					
 					];
@@ -88,7 +123,7 @@ class LocationFinder extends Controller
 		$Nearest = 10000000000000000000000000;
 		$Nearest_index = 0 ;
 
-		for ($i = 0; $i < 7; $i++){
+		for ($i = 0; $i < 13; $i++){
 			$lat_difference = $current_lat - $loc_lats[$i];
 			$long_difference = $current_long - $loc_longs[$i];
 			$difference = pow($lat_difference,2) + pow($long_difference,2);
