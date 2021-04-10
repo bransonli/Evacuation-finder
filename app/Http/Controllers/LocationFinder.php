@@ -229,7 +229,7 @@ class LocationFinder extends Controller
 		$Nearest = 10000000000000000000000000;
 		$Nearest_index = 0 ;
 
-		for ($i = 0; $i < 13; $i++){
+		for ($i = 0; $i < 75; $i++){
 			$lat_difference = $current_lat - $loc_lats[$i];
 			$long_difference = $current_long - $loc_longs[$i];
 			$difference = pow($lat_difference,2) + pow($long_difference,2);
