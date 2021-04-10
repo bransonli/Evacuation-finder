@@ -46,7 +46,7 @@
                     <input type="text" name = "address1" id="address1" placeholder="House number">
                     <input type="text" name = "address2" id="address2" placeholder="Street name"> 
                     <input type="text" name = "address3" id="address3" placeholder="City"> 
-                    <input type="text" name = "address4" id="address4" placeholder="Postal Code">
+                    <input type="text" name = "address4" id="address4" placeholder="Region/State">
                     
                 </div>
             </div>
