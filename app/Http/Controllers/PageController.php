@@ -19,7 +19,9 @@ class PageController extends Controller
         dump(request()->all());
 
         $user = new User();
-        $user->name = request('name');
+        $user->first_name = request('first_name');
+        $user->second_name = request('second_name');
+        $user->last_name = request('last_name');
         $address1 = request('address1');
         $address2 = request('address2');
         $address3 = request('address3');
@@ -51,11 +53,13 @@ class PageController extends Controller
 
         request()->all();
 
-        $user =  request('name');
+        $first_name =  request('first_name');
+        $second_name =  request('second_name');
+        $last_name =  request('last_name');
 
         foreach ($users as $reg_user)
            
-            if ($user== $reg_user->name) {
+            if ($first_name== $reg_user->first_name||$second_name== $reg_user->second_name||$last_name== $reg_user->last_name) {
 
                 $location_finder = new LocationFinder();
                 $nearest_evac = $location_finder->find_nearest_evac($reg_user->latitude,$reg_user->longhitude);
