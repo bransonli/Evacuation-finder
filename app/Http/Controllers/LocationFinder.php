@@ -74,6 +74,9 @@ class LocationFinder extends Controller
 					  "Marikina High School",
 					  "Barangka Elementary School",
 					  "Sta. Elena High School",
+					  "Eusebio Elementary School, Barangay Wawa", "Taguig Science, Barangay Wawa", "Central Bicutan Covered Court, Barangay Central Bicutan", "EM’s Elementary School, Barangay Central Signal", "Gat Andres Bonifacio, Barangay Fort Bonifacio", "Diosdado Macapagal High School, Barangay Katuparan", "Trade Center, Barangay Maharlika", "Daanghari Elementary School, Barangay North Daanghari", "Kapitan Eddie T. Reyes Integrated School, Barangay Pinagsama", "Cardones Elementary School, Barangay South Signal", "Bagong Tanyag Elementary School Main, Barangay Tanyag", "Silangan Elementary School, Barangay Upper Bicutan", "Tenement Elementary School, Barangay Western Bicutan", "Bagong Tanyag Elementary School Annex A, Barangay South Daanghari", "Bagong Tanyag Elementary School Annex B, Barangay South Daanghari", "C.P. Sta. Teresa Elementary School, Barangay Bagumbayan", "Taguig Integrated School, Barangay Bambang", "Tipas Elementary School Annex, Barangay Calzada Tipas", "Hagonoy Gym, Barangay Hagonoy", " Katwiran Covered Court, Barangay Ibayo Tipas", "RP. Cruz Elementary School, Barangay Lower Bicutan", "Tipas Elementary School Annex, Barangay Palingon Tipas", "Eusebio Elementary School, Barangay San Miguel", "Ususan Elementary School, Barangay Ususan", "Cayetano Science High School, Barangay Ususan",
+					  "Valenzuela National High School", "Cupang Senior High School", "Baywalk Covered Court", "Alabang Elementary School", "San Roque Elementary School, Barangay San Roque", "Palanyag Gym, Barangay San Dionisio"
+
 
 
 			
@@ -128,6 +131,38 @@ class LocationFinder extends Controller
 					 14.646597368066214,
 					 14.633420829493003,
 					 14.632478536925474,
+					 14.52017474446684, 
+					 14.52052840257572, 
+					 14.493532035139467, 
+					 14.511469401146487, 
+					 14.530021424579923, 
+					 14.521703004113352, 
+					 14.497187131948097, 
+					 14.486872754523178, 
+					 14.533799077461477, 
+					 14.504328674482258, 
+					 14.48010759627466, 
+					 14.502336696720441, 
+					 14.509110282961995, 
+					 14.466775531011708, 
+					 14.470935531933634, 
+					 14.473787019261593, 
+					 14.526355025913457,  
+					 14.532050791284679, 
+					 14.512065271827732, 
+					 14.538410843561861, 
+					 14.5001738552001,
+					 14.532123171401297, 
+					 14.520119857738157, 
+					 14.534338815513218, 
+					 14.525733384974604,
+					 14.676535894140882, 
+					 4.432577673303788,
+					 9.371188073879532, 
+					 14.42101119662653, 
+					 14.671126496192436, 
+					 14.487801118706285
+
 
 					 
 					
@@ -178,6 +213,9 @@ class LocationFinder extends Controller
 					  121.10303365205972,
 					  121.0819147074807,
 					  121.0973978008418,
+					  121.07371797707584, 121.07362390455367, 121.0561398213401, 121.05772124539968, 121.02368126997388, 121.0578483924728, 121.05510240791821, 121.04702857769662, 121.05629429048709, 121.05646631438783, 121.04703475850262, 121.04849704279805, 121.03814248762215, 121.05116336224405, 121.04761884315742, 121.05865868545558, 121.07438334033347, 121.07937121872637, 121.07104517671104, 121.08651827594878, 121.06359989973355, 121.0793787345705, 121.07369472286432, 121.06708689924149, 121.0615823686658,
+					  120.98396773417826, 121.05210156322937, 125.94889910763197, 121.04912780996618, 120.93876129647816, 120.9894803118195
+
 
 
 
