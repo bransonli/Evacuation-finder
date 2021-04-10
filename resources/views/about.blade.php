@@ -34,7 +34,7 @@
 <div class="column">
   <div class="w3-row-padding w3-black w3-opacity w3-center w3-padding-32 w3-container">
     <h1>Contact Us</h1>
-    <p class="title">Got any questions? We are here to hep!</p>
+    <p class="title">Got any questions? We are here to help!</p>
     <h3>Email:</h2> <p>costomer_service@neat.com</p>
     <h3>Phone</h2> <p>09191234567</p>
 
