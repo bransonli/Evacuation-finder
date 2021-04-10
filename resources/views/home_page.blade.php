@@ -46,7 +46,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <h1>Know where to go</h1>
       <h5 class="w3-padding-32">Find the nearest evacuation center</h5>
 
-      <p class="w3-text-grey">Check out the map to know where it's safest</p>
+  
     </div>
 
     <div class="w3-third w3-center">
@@ -68,7 +68,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <h1>Sign up for text messaging service assistance</h1>
       <h5 class="w3-padding-32">Stay connected even without wifi</h5>
 
-      <p class="w3-text-grey">Be guided during calamity</p>
+      
     </div>
   </div>
 </div>
